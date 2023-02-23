@@ -1,6 +1,6 @@
 #!/bin/sh
 #export LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib
-" <<EOF
+ <<EOF
 DROP TABLE Admin CASCADE CONSTRAINTS;
 DROP TABLE RentalStoreBranch CASCADE CONSTRAINTS;
 DROP TABLE Booking CASCADE CONSTRAINTS;
