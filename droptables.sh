@@ -1,6 +1,6 @@
 #!/bin/sh
 #export LD_LIBRARY_PATH=/usr/lib/oracle/12.1/client64/lib
-sqlplus64 “n88ahmed/10295409@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(Host=oracle.scs.ryerson.ca)(Port=1521))(CONNECT_DATA=(SID=orcl)))" <<EOF
+" <<EOF
 DROP TABLE Admin CASCADE CONSTRAINTS;
 DROP TABLE RentalStoreBranch CASCADE CONSTRAINTS;
 DROP TABLE Booking CASCADE CONSTRAINTS;
